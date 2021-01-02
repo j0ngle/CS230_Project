@@ -1,0 +1,29 @@
+.bg-cover {
+    background-image: url("../images/login-background.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+}
+
+.container {
+    width: 50%;
+}
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.signup-form {
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+}

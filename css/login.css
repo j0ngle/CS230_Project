@@ -1,0 +1,22 @@
+.bg-cover {
+	background-image: url("../images/login-background.png");
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+
+.center-me {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+.form-signin{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

@@ -1,0 +1,29 @@
+.game-info {
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding-top: 32px;
+   padding-left: 32px;
+}
+
+.description {
+    font-family:'Consolas';
+    font-size: large;
+    padding-right: 32px;
+}
+
+.left {
+    width:640px; 
+    height:360px;
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+.break {
+    padding-top: 200px;
+    padding-bottom: 32px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}

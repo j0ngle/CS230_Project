@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+}
+
+h3{
+   margin-top: 5px;
+   color: black;
+}
+
+p{
+     color: black;
+}
+
+img{
+    max-width: 220px;
+    height: 220px;
+    margin-top: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+@media (max-width: 500px) {
+    .dropdown-menu{
+          max-height:200px;
+          overflow-y:auto;
+       }
+    }
+
+.gallery-container{
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+  
+}
+
+.card {
+    min-width: 280px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 20%;
+  max-width: 280px;
+  height: auto;
+  padding: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.gallery-container a{
+	background-position: center;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.gallery-container a:hover{
+    opacity: 70%;
+    text-decoration-color: goldenrod;
+}
